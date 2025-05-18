@@ -1,7 +1,7 @@
 export RISCV_DV_ROOT=$(pwd)
 export RISCV_TOOLCHAIN=/opt/riscv
-export RISCV_GCC="$RISCV_TOOLCHAIN/bin/riscv32-unknown-elf-gcc"
-export RISCV_OBJCOPY="$RISCV_TOOLCHAIN/bin/riscv32-unknown-elf-objcopy"
+export RISCV_GCC="$RISCV_TOOLCHAIN/bin/riscv64-unknown-elf-gcc"
+export RISCV_OBJCOPY="$RISCV_TOOLCHAIN/bin/riscv64-unknown-elf-objcopy"
 
 export SPIKE_PATH=$RISCV_TOOLCHAIN/bin
 
